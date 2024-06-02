@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 40px 120px;
+  font-family: "Inter", sans-serif;
+}
+
+.nav-links {
+  text-decoration: none;
+  color: hsl(236, 13%, 42%);
+  margin-right: 30px;
+  letter-spacing: 0.5px;
+  font-size: 15.8px;
+}
+
+.button {
+  margin-top: 10px;
+  background-color: hsl(5, 85%, 63%);
+  color: hsl(240, 100%, 5%);
+  border: none;
+  padding: 16px 38px;
+  font-size: 14.4px;
+  font-weight: 600;
+  letter-spacing: 3.2px;
+}
+
+.button:hover {
+  background-color: hsl(240, 100%, 5%);
+  color: hsl(36, 100%, 99%);
+  transition: all 0.3s ease-in-out;
+}
+
+#aside {
+  background-color: hsl(240, 100%, 5%);
+  padding: 26px;
+}
+
+#aside h2 {
+  color: hsl(35, 77%, 62%);
+}
+
+#aside p {
+  text-decoration: none;
+  color: hsl(233, 8%, 79%);
+  margin-top: 1px;
+  font-size: 14.5px;
+  line-height: 24px;
+  letter-spacing: 0.55px;
+}
+
+#aside h3 a {
+  text-decoration: none;
+  color: white;
+}
+
+.article {
+  margin-bottom: 30px;
+  padding-bottom: 24px;
+  border-bottom: 0.1px solid hsl(236, 13%, 42%);
+}
+
+#blog-section {
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.blogs {
+  display: flex;
+  height: 150px;
+}
+
+.blogs img {
+  border-radius: 3px;
+  height: 100%;
+}
+
+.blogs strong {
+  font-size: 37px;
+  color: hsl(5, 85%, 63%);
+}
+
+.blogs h3 {
+  margin-top: 12px;
+}
+
+.blogs p {
+  margin-top: 8px;
+  color: hsl(236, 13%, 42%);
+  line-height: 25px;
+  font-size: 15px;
+}
+
+.blogs div {
+  margin-left: 20px;
+}
